@@ -1,0 +1,19 @@
+.menu_channels{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: calc(100vh - 60px);
+
+
+}
+
+::-webkit-scrollbar {
+    background-color:white;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#acacac;
+    border-radius: 5px;
+    height: 10%;
+    max-height: 10px;
+}

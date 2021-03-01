@@ -1,0 +1,50 @@
+.message_time{
+    color: #86a8c2;
+    margin-bottom: 5px;
+}
+
+.message_value{
+    font-size: 16px;
+}
+
+.message_container{
+    padding: 10px 10px;
+}
+
+.message--data_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message{
+    padding: 0px 10px 0px 5px;
+    background-color: #def1fd;
+    border-radius: 8px;
+    width: max-content;
+    display: flex;
+    justify-self: right;
+    margin-bottom: 3px;
+    max-width: 50%;
+}
+.companion-message{
+    padding: 0px 10px 0px 5px;
+    background-color: white;
+    border-radius: 8px;
+    width: max-content;
+    display: flex;
+    margin-bottom: 3px;
+    max-width: 50%;
+}
+
+.message_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.companion-message_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}

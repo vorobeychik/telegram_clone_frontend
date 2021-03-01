@@ -1,0 +1,19 @@
+.right--panel{
+    height: 100vh;
+    width: 50%;
+    border-left: 1px solid #aaaaae;
+}
+
+.panel-header_top-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel--header_title{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.panel--header_out--button{
+    font-size: 32px;
+}

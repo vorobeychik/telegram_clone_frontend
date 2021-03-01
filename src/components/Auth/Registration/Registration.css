@@ -1,0 +1,105 @@
+.register_container{
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_page{
+    display: flex;
+    justify-content: center;
+}
+
+.registration_number-input_right{
+    margin-top: 10px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #e0e0e0;
+    outline: 0;
+    transition: 0.1s;
+    font-size: 18px;
+    margin-left: 10px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.registration_number-input_left{
+    margin-top: 10px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #e0e0e0;
+    outline: 0;
+    transition: 0.1s;
+    font-size: 18px;
+    width: 15%;
+    padding-left: 0.25rem;
+}
+
+.registration_number_container{
+    display: flex;
+}
+
+
+.register_name-input{
+    margin-top: 10px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #e0e0e0;
+    outline: 0;
+    transition: 0.1s;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.register_teg-input{
+    margin-top: 10px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #e0e0e0;
+    outline: 0;
+    transition: 0.1s;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.registration_title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 140px;
+}
+
+.registration_paragraph{
+    margin-top: 15px;
+    color: #999999;
+    font-size: 18px;
+}
+
+.registration_button{
+    border: 0;
+    margin-top: 50px;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    background-color: #40a7e3;
+    border-radius: 5px;
+    font-size: 21px;
+    outline: 0;
+}
+
+.registration_number-input_left:focus{
+    border-bottom: 2px solid #40a7e3;
+}
+
+.registration_number-input_right:focus{
+    border-bottom: 2px solid #40a7e3;
+}
+
+.register_name-input:focus{
+    border-bottom: 2px solid #40a7e3;
+}
+
+.register_teg-input:focus{
+    border-bottom: 2px solid #40a7e3;
+}

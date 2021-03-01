@@ -1,0 +1,40 @@
+.chat{
+    height: 100vh;
+    background-color: #74b5e0;
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+.chat_not--selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat--selected{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_paragraph{
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: max-content;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 19px;
+    height: max-content;
+
+}
+
+.chat_container{
+    display: flex;
+    width: 67%;
+}
+
+/*.chat_paragraph{*/
+/*    background-color: rgba(0,0,0,0.5);*/
+/*}*/
