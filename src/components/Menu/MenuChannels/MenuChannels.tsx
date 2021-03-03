@@ -9,7 +9,8 @@ import {IStore} from "../../../interfaces/IStore";
 export const MenuChannels = () => {
 
 
-    const channels = useSelector((state:IStore) => state.user.userChannels).map(channelInfo => <Channel key={Date.now()} chanelInfo={channelInfo}/>)
+    const channels = useSelector((state:IStore) => state.user.userChannels).map(channelInfo => <Channel key={Date.now()} chanelInfo={channelInfo}/>);
+
 
 
 

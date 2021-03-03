@@ -13,6 +13,7 @@ declare global {
     }
 }
 
+
 const store = createStore(rootReducer, compose(
     window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__() || compose
 ));

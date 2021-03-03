@@ -1,0 +1,10 @@
+.search-menu_title{
+    color: #999999;
+    font-size: 18px;
+    margin-left: 1.5rem;
+}
+
+.search-menu_title--container {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}

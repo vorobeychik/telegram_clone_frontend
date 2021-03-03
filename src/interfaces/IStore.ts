@@ -6,4 +6,6 @@ export interface IStore {
     user:IUser,
     rightChatPanel:boolean,
     authorized: boolean,
+    searchPanel:boolean,
+    searchedUser: IUser[],
 }

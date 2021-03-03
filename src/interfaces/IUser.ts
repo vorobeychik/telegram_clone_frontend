@@ -2,8 +2,11 @@ import {IChannel} from "./IChannel";
 
 export interface IUser {
     name:string,
-    id:number,
     userChannels:IChannel[]
     email:string,
     code:number,
+    tag:string,
+    mobile:string,
+    isOnline:boolean,
+    id:number,
 }

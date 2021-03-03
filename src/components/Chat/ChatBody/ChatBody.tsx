@@ -11,7 +11,6 @@ type Props = {
 }
 
 export const ChatBody:React.FC<Props> = ({messages}) => {
-
     const user = useSelector((state:IStore) =>  ({
         name:state.user.name,
         id:state.user.id,
